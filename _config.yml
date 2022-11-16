@@ -1,49 +1,54 @@
-# The Site Configuration
+# Site配置文件
 
 # Import the theme
 theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
+#仅当您的网站类型为 GitHub Pages Project(即http(s)://<username>.github.io/<repository>) 网站并且没有自定义域名时，才将以下值更改为“/PROJECT_NAME”。
 baseurl: ''
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+# 网页的语言 › http://www.lingoes.net/en/translator/langcode.htm
+# 如果它与文件夹“_data/locales”中的某个文件同名，则布局语言也将更改，否则，布局语言将使用默认值“en”。
+lang: zh-CN
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# 更改时区
 timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: HAIXING                          # the main title 主标题
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: HAIXING的博客   # it will display as the sub-title 作为副标题展示
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://SiriusOvO.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: SiriusOvO                   # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  # 它将在页脚中显示为帖子的默认作者和版权所有者
+  name: SiriusOvO
   email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    #- https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/SiriusOvO       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -78,10 +83,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
+#img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: '/assets/img/sample/avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
