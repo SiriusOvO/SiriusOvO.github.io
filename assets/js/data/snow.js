@@ -1,7 +1,7 @@
 //匿名函数
 (function ($) {
     $.fn.getFlake=function(){
-        var flakeList=["❄","❉","❅","❆","✼","❇","❈","❊","✥","✺","✻"];
+        var flakeList=["❄","❉","❅","❆","✼","❄️","❈","❊","✥","✺","✻"];
         var colorList=[];
         var $flake = $('<div id="snowbox" />')
         .css({
