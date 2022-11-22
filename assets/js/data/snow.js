@@ -1,7 +1,7 @@
 //匿名函数
 (function ($) {
     $.fn.getFlake=function(){
-        var flakeList=["❄","❉","❅","❆","❄️","✼","❇","❈","❊","✥","✺","✻"];
+        var flakeList=["❄","❉","❅","❆","✼","❇","❈","❊","✥","✺","✻"];
         var colorList=[];
         var $flake = $('<div id="snowbox" />')
         .css({
@@ -41,7 +41,7 @@
        
         var interval = setInterval(function () {
             var startPositionLeft = Math.random() * documentWidth - 100,
-                startOpacity = 0.5 + Math.random(),
+                startOpacity = 0.3 + Math.random(),
                 sizeFlake = options.minSize + Math.random() * options.maxSize,
                 endPositionTop = documentHeight - 200,
                 endPositionLeft = startPositionLeft - 500 + Math.random() * 500,
@@ -77,8 +77,8 @@ $(function () {
     //$.fn.abc()是对jQuery扩展了一个abc()方法，在每一个jquery实例都可以引用这个方法，例如$("#div").abc();
     $.fn.snow({
         minSize: 5 /* 定义雪花最小尺寸 */,
-        maxSize: 40 /* 定义雪花最大尺寸 */,
-        newOn: 400 /* 定义密集程度，数字越小越密集 */,
+        maxSize: 30 /* 定义雪花最大尺寸 */,
+        newOn: 500 /* 定义密集程度，数字越小越密集 */,
         //flakeColor: "#2FF3FF"/* 自定义颜色 */,
     });
 });
