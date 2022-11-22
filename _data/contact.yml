@@ -6,12 +6,15 @@
 -
   type: weibo
   icon: 'fab fa-weibo'
+  url: false
 -
   type: zhihu
   icon: 'fab fa-zhihu'
+  url: false
 -
   type: bilibili
   icon: 'fa-brands fa-bilibili'
+  url: false
 
 # -
 #   type: twitter
