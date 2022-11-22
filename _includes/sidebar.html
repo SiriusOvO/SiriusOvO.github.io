@@ -86,7 +86,7 @@
       </a>
       {%- else -%}
       <!-- 增加暂时没有联系方式的提示 -->
-      <a href="{{ url }}" aria-label="{{ entry.type }}" data-toggle="tooltip" title="暂无"
+      <a href="{{ '/' | relative_url }}" aria-label="{{ entry.type }}" data-toggle="tooltip" title="暂无"
         {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
         <i class="{{ entry.icon }}"></i>
       </a>
